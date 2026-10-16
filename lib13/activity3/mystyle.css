@@ -1,0 +1,76 @@
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skills li {
+    background-color: #056de4;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 14px;
+}
+
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.role {
+    color: #056de4;
+    font-weight: bold;
+}
+
+.skills {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #dbe2ea;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #dbe2ea;
+    margin-bottom: 16px;
+}
+
+.role {
+    color: #056de4;
+    font-weight: bold;
+}
+
+.about {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    background-color: #f8fafc;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    margin-top: 24px;
+}
