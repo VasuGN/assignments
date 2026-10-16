@@ -1,0 +1,143 @@
+
+/* Basic page design */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f4f8;
+    color: #222222;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Page heading */
+header {
+    background: #16324f;
+    color: white;
+    padding: 22px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Content sections */
+section {
+    background: white;
+    padding: 18px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #16324f;
+    margin-top: 0;
+}
+
+/* Book counters */
+.stats {
+    display: flex;
+    gap: 15px;
+}
+
+.stat {
+    flex: 1;
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 30px;
+    color: #16324f;
+    margin: 0;
+}
+
+/* Add-book form */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    flex: 1;
+    min-width: 120px;
+}
+
+button {
+    background: #16324f;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #285780;
+}
+
+/* Individual book cards */
+.book {
+    border-left: 4px solid #16324f;
+    background: #f7f9fc;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+.book h3 {
+    margin: 0;
+}
+
+.book p {
+    margin: 5px 0;
+}
+
+.book button {
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+#message {
+    color: #16324f;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #666666;
+    font-size: 13px;
+    padding: 10px;
+}
+
+/* Adjust layout for phones */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input,
+    button {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

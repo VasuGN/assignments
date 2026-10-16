@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Library System</title>
+
+    <!-- Connect the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Mini Library System</h1>
+        <p>A simple library management project built with Python</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About My Project</h2>
+
+            <p>
+                The Mini Library System is a Python project developed
+                to manage books in a library. It allows users to add
+                books, borrow books, return books, and track available
+                copies.
+            </p>
+
+            <p>
+                The project uses the Library class and file handling
+                to store book information in JSON formats.
+            </p>
+
+            <p>
+                This webpage demonstrates similar library operations
+                using HTML, CSS, and JavaScript.
+            </p>
+        </section>
+
+        <section class="stats">
+            <div class="stat">
+                <h3 id="titleCount">0</h3>
+                <p>Book Titles</p>
+            </div>
+
+            <div class="stat">
+                <h3 id="copyCount">0</h3>
+                <p>Total Copies</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Add a Book</h2>
+
+            <form id="bookForm">
+                <input type="text" id="title" placeholder="Book title" required>
+
+                <input type="text" id="author" placeholder="Author name" required>
+
+                <input type="number" id="copies" placeholder="Copies" min="1" step="1" value="1" required>
+
+                <button type="submit">Add Book</button>
+            </form>
+
+            <p id="message" role="status"></p>
+        </section>
+
+        <section>
+            <h2>Available Books</h2>
+            <div id="shelf"></div>
+        </section>
+
+        <section class="project-info">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>File handling with JSON</li>
+                <li>HTML for webpage structure</li>
+                <li>CSS for webpage design</li>
+                <li>JavaScript for book operations</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by: Vasu G N</p>
+        <p>Agentic AI Engineering Student</p>
+        <p>GiftAbled Foundation</p>
+    </footer>
+
+    <!-- Load JavaScript after the page content -->
+    <script src="script.js"></script>
+</body>
+
+</html>
